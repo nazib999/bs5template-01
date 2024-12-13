@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400 !important;
+    
+}
+hr{
+
+height: 3px !important;
+background-color: red;
+
+}
+
+#header .navbar-toggler:focus{
+    color: aliceblue;
+}
+#header .nav-item:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+#carouselExampleIndicators{
+    margin-top: 60px;
+}
+.slider{
+    z-index: 99;
+    
+    
+}
